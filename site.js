@@ -25,6 +25,15 @@ const CONFIG = {
 // =====================================================
 const POSTS = [
   {
+    type: "spotted",
+    date: "2026-11-05 18:20",
+    titre: "Spotted",
+    image: "images/photo1.jpeg",
+    texte: [
+      "Spotted: S and N together? Well, well, well… Looks like someone has some explaining to do. Coincidence or something more? You know I’ll be watching. 💋",
+    ],
+  },
+  {
     type: "blast",
     date: "2026-11-04 22:30",
     titre: "Welcome",
