@@ -13,7 +13,7 @@ const CONFIG = {
   // Lien de ta chaîne Telegram (pour les "blasts"). Laisse "" tant qu'elle n'existe pas.
   telegram: "",
   // Identifiant de ton formulaire Tally (la fin de l'URL tally.so/r/XXXXXX). Laisse "" tant que tu ne l'as pas créé.
-  tallyId: "",
+  tallyId: "RWxXQK",
 };
 
 // =====================================================
