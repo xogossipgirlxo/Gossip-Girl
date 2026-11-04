@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Envoyer un tip</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="logo"><a href="index.html" id="logo" style="color:inherit;text-decoration:none">Le Murmure</a></h1>
+      <p class="tagline" id="tagline"></p>
+      <nav>
+        <a class="btn" href="index.html">← Retour au blog</a>
+        <a class="btn" id="btn-telegram" href="#" target="_blank" rel="noopener">Recevoir les blasts</a>
+      </nav>
+    </header>
+
+    <h1 class="page">Envoyer un tip</h1>
+    <p style="text-align:center;color:var(--muted)">Anonyme. Pas de compte, pas de nom. Un texte, une photo, une vidéo : tu as vu quelque chose, dis-le-moi.<br>
+    Les demandes de retrait passent aussi par ici.</p>
+    <p class="thanks">Je ne suis rien sans vous.</p>
+
+    <iframe id="tally" title="Formulaire de tip" loading="lazy"></iframe>
+
+    <div class="rules">
+      <strong>Avant d'envoyer.</strong> Pas de photo ni de vidéo d'une personne sans son accord, rien d'intime, rien sur des mineurs.
+      Tout ne sera pas publié : les tips sont vérifiés avant.
+    </div>
+  </div>
+  <script src="site.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

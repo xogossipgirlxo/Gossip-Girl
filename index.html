@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le Murmure</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div id="banner" class="banner"></div>
+
+    <header>
+      <h1 class="logo" id="logo">Le Murmure</h1>
+      <p class="tagline" id="tagline"></p>
+      <nav>
+        <a class="btn fill" href="tip.html">Envoyer un tip</a>
+        <a class="btn" id="btn-telegram" href="#" target="_blank" rel="noopener">Recevoir les blasts</a>
+      </nav>
+    </header>
+
+    <input id="search" class="search" type="search" placeholder="Chercher dans les archives…" aria-label="Chercher dans les archives">
+
+    <div class="filters">
+      <button class="chip on" data-f="all">Tout</button>
+      <button class="chip" data-f="spotted">Spotted</button>
+      <button class="chip" data-f="blast">Blasts</button>
+      <button class="chip" data-f="news">Rumeurs</button>
+      <button class="chip" data-f="recap">Récaps</button>
+    </div>
+
+    <main id="posts"></main>
+
+    <div class="rules">
+      <strong>Règles de la maison.</strong> Rien de diffamatoire, aucune photo sans l'accord de la personne,
+      rien d'intime ni d'humiliant, rien sur des mineurs. Une personne concernée peut demander le retrait d'un post via la page « Envoyer un tip ».
+    </div>
+  </div>
+  <script src="site.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
