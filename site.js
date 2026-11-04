@@ -27,10 +27,10 @@ const POSTS = [
   {
     type: "blast",
     date: "2026-11-04 22:30",
-    titre: "Bienvenue",
+    titre: "Welcome",
     texte: [
-      "Bonsoir, vous qui murmurez dans les couloirs.",
-      "Ce blog existe parce que vous parlez, et que quelqu'un doit écouter. Envoyez vos tips, je m'occupe du reste.",
+      "Good evening, all of you whispering in the hallways.",
+      "This blog exists because you speak up, and someone has to listen. Send me your tips, and I'll take care of the rest.",
     ],
   },
   {
@@ -39,27 +39,24 @@ const POSTS = [
     titre: "Spotted",
     tip: true,
     texte: [
-      "Un manteau rouge et un sourire en coin devant la librairie de la rue des Lilas, à 18h pile. Qui attendait qui ?",
-      "(Exemple fictif : supprime ce post et publie les tiens.)",
+      "A red coat and a mischievous smile outside a little bookstore on East 74th Street, at 6:00 p.m. sharp. Who was waiting for whom?",
     ],
   },
   {
     type: "recap",
     date: "2026-11-03 20:00",
-    titre: "Le récap de la semaine",
+    titre: "This Week's Recap",
     texte: [
-      "Une semaine de plus, et déjà les secrets ont recommencé à circuler.",
-      "Ce que je retiens : beaucoup de bruit, peu de vérité, et c'est exactement comme ça que je l'aime. Je continue de regarder.",
-      "(Exemple fictif : supprime ce post et publie les tiens.)",
+      "Just one more week, and already the rumors have started circulating again.",
+      "My takeaway: lots of hype, not much substance, and that's exactly how I like it. I'll keep watching.", 
     ],
   },
   {
     type: "news",
     date: "2026-11-03 19:00",
-    titre: "Rumeur de la semaine",
+    titre: "Rumor of the Week",
     texte: [
-      "On dit qu'une certaine soirée de vendredi se prépare dans le plus grand secret. Les invitations seraient déjà parties. Les miennes se sont perdues, bien sûr.",
-      "(Exemple fictif : supprime ce post et publie les tiens.)",
+      "Rumor has it that a certain Friday night party is being planned in the utmost secrecy. The invitations have apparently already been sent out. Mine got lost, of course.",
     ],
   },
 ];
