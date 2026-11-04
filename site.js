@@ -26,7 +26,7 @@ const CONFIG = {
 const POSTS = [
   {
     type: "spotted",
-    date: "2026-11-05 18:20",
+    date: "2026-11-05 00:20",
     titre: "Spotted",
     image: "images/photo1.jpeg",
     texte: [
