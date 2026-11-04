@@ -1,4 +1,4 @@
-const LABELS = { spotted: "Spotted", blast: "Blast", news: "Rumeur", recap: "Récap" };
+const LABELS = { spotted: "Spotted", blast: "Blast", news: "Rumor", recap: "Recap" };
 let currentFilter = "all";
 let currentQuery = "";
 
@@ -42,7 +42,7 @@ function renderBanner() {
   const p = POSTS[0];
   b.innerHTML = "";
   b.appendChild(el("span", "dot"));
-  b.appendChild(el("strong", "", "Nouveau blast"));
+  b.appendChild(el("strong", "", "New blast"));
   b.appendChild(document.createTextNode(" · " + p.titre + " · " + ago(p.date)));
 }
 
@@ -57,7 +57,7 @@ function renderPosts() {
     return (p.titre + " " + p.texte.join(" ")).toLowerCase().includes(q);
   });
   if (!list.length) {
-    box.appendChild(el("div", "empty", q ? "Rien là-dessus. Pour l'instant." : "Rien pour l'instant. Ça ne va pas durer."));
+    box.appendChild(el("div", "empty", q ? "Nothing on that. For now." : "Nothing yet. It won't last."));
     return;
   }
   list.forEach((p) => {
@@ -77,7 +77,7 @@ function renderPosts() {
     }
     if (p.type === "recap" && CONFIG.accroche) a.appendChild(el("p", "accroche", CONFIG.accroche));
     p.texte.forEach((x) => a.appendChild(el("p", "", x)));
-    if (p.tip) a.appendChild(el("div", "source", "Tip reçu d'un(e) lecteur·rice anonyme"));
+    if (p.tip) a.appendChild(el("div", "source", "Tip received from an anonymous reader"));
     a.appendChild(el("div", "sign", CONFIG.signature));
     box.appendChild(a);
   });
