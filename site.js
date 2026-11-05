@@ -26,11 +26,20 @@ const CONFIG = {
 const POSTS = [
   {
     type: "spotted",
+    date: "2026-11-05 18:20",
+    titre: "Spotted",
+    image: "images/photo2.jpg",
+    texte: [
+      "B and S sharing the same steps again. Some friendships survive everything, but some secrets never really disappear. Is this a reunion or just another beautiful little performance? How lovely. 💄",
+    ],
+  },
+  {
+    type: "spotted",
     date: "2026-11-05 00:20",
     titre: "Spotted",
-    image: "images/photo1.jpeg",
+    image: "images/photo1.jpg",
     texte: [
-      "Spotted: S and N together? Well, well, well… Looks like someone has some explaining to do. Coincidence or something more? You know I’ll be watching. 💋",
+      "S and N together? Well, well, well… Looks like someone has some explaining to do. Coincidence or something more? You know I’ll be watching. 💋",
     ],
   },
   {
