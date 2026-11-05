@@ -14,12 +14,12 @@ function ago(s) {
   const d = new Date(s.replace(" ", "T"));
   const m = Math.round((Date.now() - d.getTime()) / 60000);
   if (isNaN(m) || m < 0) return s;
-  if (m < 1) return "à l'instant";
-  if (m < 60) return "il y a " + m + " min";
+  if (m < 1) return "just now";
+  if (m < 60) return m + "minute " + "ago";
   const h = Math.round(m / 60);
-  if (h < 24) return "il y a " + h + " h";
+  if (h < 24) return h + "hours " + "ago";
   const j = Math.round(h / 24);
-  if (j < 7) return "il y a " + j + " j";
+  if (j < 7) return j + "days " + "ago";
   return s;
 }
 
